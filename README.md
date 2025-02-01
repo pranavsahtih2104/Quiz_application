@@ -1,4 +1,4 @@
-# Interactive_Quiz_Application
+# Interactive_Quiz_Application (https://github.com/pranavsahtih2104/Quiz_application/blob/main/index.html)
 Overview:
 
 The Interactive Quiz application is a web-based quiz platform that tests users' knowledge on the subject of Genetics and Evolution. The application features a timer for each question, a progress bar to indicate time remaining, and a dynamic scoring system. The quiz data, including questions, options, correct answers, and detailed solutions, is fetched from an external API.
