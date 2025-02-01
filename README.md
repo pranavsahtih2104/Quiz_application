@@ -81,3 +81,10 @@ description: The question text.
 options: An array of options (each option contains an id, description, and a boolean is_correct).
 detailed_solution: A detailed explanation for the correct answer.
 The data fetched from the API is parsed and used to populate the quiz questions dynamically.
+![image](https://github.com/user-attachments/assets/c967902e-9d13-4d38-98bf-7d759127c90f)
+![image](https://github.com/user-attachments/assets/7be131d9-c381-46e4-96dd-fee5e4230d46)
+![image](https://github.com/user-attachments/assets/2d2a2ad1-14d1-47fb-851f-59c962f00dd6)
+![image](https://github.com/user-attachments/assets/ef62c492-6036-47ed-ad43-6c15eea9b02f)
+
+
+
