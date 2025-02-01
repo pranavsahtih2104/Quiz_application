@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Quiz</h1>
+
+        <!-- Quiz Instructions -->
+        <div id="quiz-context" class="context">
+            <h3>Welcome to the Quiz!</h3>
+            <p>This quiz will test your knowledge on Genetics and Evolution.</p>
+            <p><strong>Instructions:</strong></p>
+            <ul>
+                <li>There are 10 questions in total.</li>
+                <li>Answer all the questions within the time limit.</li>
+                <li>You will have 15 seconds for each question.</li>
+                <li>Your score will be displayed at the end of the quiz.</li>
+                <li>If you score wrong the correct answer will be displayed at the end.</li>
+                <li>There will also be a detailed explaination at the end of the quiz.</li>
+            </ul>
+            <p><strong>Good luck!</strong></p>
+        </div>
+
+        <!-- Theme Toggle Button -->
+        <button id="themeToggle">Switch to Dark Mode</button>
+
+        <!-- Start Quiz Button -->
+        <button id="startQuiz">Start Quiz</button>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" style="display: none;">
+            <!-- Quiz questions will be displayed here -->
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div id="navigation-buttons" style="display: none;">
+            <button id="previousQuestion">Previous</button>
+            <button id="nextQuestion">Next</button>
+        </div>
+            <br>
+        <!-- Submit Quiz Button -->
+        <button id="submitQuiz" style="display: none;">Submit Quiz</button>
+
+        <!-- Timer Display -->
+        <!-- <p>Time Remaining:<span id="timeLeft">15</span> seconds</p> -->
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+
+        <!-- Results Breakdown -->
+        <div id="result"><br></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
